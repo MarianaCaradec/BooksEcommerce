@@ -26,7 +26,7 @@ export default function Home() {
             un mundo de historias cautivadoras a un click de distancia.
           </h3>
           <Link
-            href="#sobreNosotros"
+            href="/sobreNosotros"
             className="mt-6 px-6 py-3 bg-[#AF611E] hover:bg-[#CFAC91] hover:text-[#AF611E] transition rounded-lg"
           >
             Descubre más sobre nosotros
