@@ -16,10 +16,7 @@ const NavBar = () => {
       }`}
     >
       <div>
-        <Link
-          href="/"
-          className="text-2xl text-[#CFAC91] p-2 rounded-lg font-bold"
-        >
+        <Link href="/" className="text-2xl p-2 rounded-lg font-bold">
           Texere
         </Link>
       </div>
