@@ -7,7 +7,7 @@ const page = () => {
     <div className="flex flex-col md:flex-row items-stretch justify-around p-8 min-h-screen">
       <div className="flex items-end justify-center w-full md:w-1/2">
         <Image
-          src="/about-us.png"
+          src="/sobreNosotros.jpg"
           width={500}
           height={700}
           alt="Background Image"
