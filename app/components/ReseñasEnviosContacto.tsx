@@ -16,8 +16,8 @@ const ReseñasEnviosContacto = () => {
               fill="none"
               stroke="#000000"
               strokeWidth="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path d="M4 5m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
               <path d="M14 7l6 0" />
@@ -29,7 +29,12 @@ const ReseñasEnviosContacto = () => {
             <h3>Reseñas</h3>
           </div>
           <p>Descrubre las opiniones de nuestros clientes más queridos.</p>
-          <Link href="/reseñas">Ver reseñas</Link>
+          <Link
+            href="/reseñas"
+            className="bg-black text-[#CFAC91] border hover:border-[#AF611E] hover:text-[#AF611E] font-semibold py-2 px-4 rounded-lg transition"
+          >
+            Ver reseñas
+          </Link>
         </section>
         <section className="flex flex-col items-start space-y-2">
           <div className="flex space-x-4">
@@ -41,8 +46,8 @@ const ReseñasEnviosContacto = () => {
               fill="none"
               stroke="#000000"
               strokeWidth="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
               <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
@@ -53,7 +58,12 @@ const ReseñasEnviosContacto = () => {
             <h3>Envios</h3>
           </div>
           <p>Calcula envío del libro que desees.</p>
-          <Link href="/envio">Calcular envio</Link>
+          <Link
+            href="/envio"
+            className="bg-black text-[#CFAC91] border hover:border-[#AF611E] hover:text-[#AF611E] font-semibold py-2 px-4 rounded-lg transition"
+          >
+            Calcular envio
+          </Link>
         </section>
       </div>
 
@@ -68,8 +78,8 @@ const ReseñasEnviosContacto = () => {
               fill="none"
               stroke="#000000"
               strokeWidth="1"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path d="M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5" />
               <path d="M11.5 19h-6.5a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v5" />
@@ -80,13 +90,18 @@ const ReseñasEnviosContacto = () => {
           </div>
 
           <p>Contactanos para más consultas</p>
-          <Link href="/contacto">Contactar</Link>
+          <Link
+            href="/contacto"
+            className="bg-black text-[#CFAC91] border hover:border-[#AF611E] hover:text-[#AF611E] font-semibold py-2 px-4 rounded-lg transition"
+          >
+            Contactar
+          </Link>
         </section>
         <section className="flex items-end justify-center w-full">
           <Image
-            src="/principito.webp"
-            width={500}
-            height={700}
+            src="/sobreNosotros (2).jpg"
+            width={400}
+            height={400}
             alt="Team Image"
             className="object-contain"
           />
