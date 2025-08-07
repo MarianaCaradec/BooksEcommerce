@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import LibrosSeleccionados from "./components/LibrosSeleccionados";
 
 export default function Home() {
   return (
@@ -32,10 +33,11 @@ export default function Home() {
             Descubre más sobre nosotros
           </Link>
         </section>
-
-        <section> {/* <Libros /> */}</section>
-        <section> {/* <LibrosSeleccionados /> */}</section>
-        <section>{/* <ReseñasEnviosContacto /> */}</section>
+      </div>
+      <div className="flex-grow flex items-center justify-center p-8 relative z-10 bg-white bg-opacity-80">
+        <section>
+          <LibrosSeleccionados />
+        </section>
       </div>
       {/* <footer className="flex flex-wrap items-center justify-center relative z-20 gap-6">
         <a
