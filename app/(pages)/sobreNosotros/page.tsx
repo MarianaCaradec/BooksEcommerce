@@ -8,8 +8,8 @@ const page = () => {
       <div className="flex items-end justify-center w-full md:w-1/2">
         <Image
           src="/sobreNosotros.jpg"
-          width={500}
-          height={700}
+          width={400}
+          height={500}
           alt="Background Image"
           className="object-contain"
         />
