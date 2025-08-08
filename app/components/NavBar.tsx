@@ -24,19 +24,19 @@ const NavBar = () => {
       <div className="flex items-center space-x-6">
         <ul className="md:flex items-center justify-around">
           <li className="hover:text-[#AF611E] hover:bg-[#CFAC91] p-2 rounded-lg font-bold transition-color duration-200 cursor-pointer">
-            Sobre nosotros
+            <Link href="/sobreNosotros">Sobre nosotros</Link>
           </li>
           <li className="hover:text-[#AF611E] hover:bg-[#CFAC91] p-2 rounded-lg font-bold transition-color duration-200 cursor-pointer">
-            Libros
+            <Link href="/libros">Libros</Link>
           </li>
           <li className="hover:text-[#AF611E] hover:bg-[#CFAC91] p-2 rounded-lg font-bold transition-color duration-200 cursor-pointer">
-            Reseñas
+            <Link href="/reseñas">Reseñas</Link>
           </li>
           <li className="hover:text-[#AF611E] hover:bg-[#CFAC91] p-2 rounded-lg font-bold transition-color duration-200 cursor-pointer">
-            Contacto
+            <Link href="/contacto">Contacto</Link>
           </li>
           <li className="hover:text-[#AF611E] hover:bg-[#CFAC91] p-2 rounded-lg font-bold transition-color duration-200 cursor-pointer">
-            Envios
+            <Link href="/envios">Envios</Link>
           </li>
         </ul>
 
