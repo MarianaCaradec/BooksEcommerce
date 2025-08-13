@@ -29,7 +29,9 @@ const page = () => {
     <div className="bg-gradient-to-b from-white via-[#BF9A7C]/80 to-white min-h-screen font-serif">
       <div className="max-w-4xl mx-auto p-6 py-20">
         <main>
-          <h1 className="text-3xl font-bold text-[#AF611E] mb-6">Books</h1>
+          <h1 className="text-3xl font-bold text-[#AF611E] mb-6">
+            Explora nuestros libros
+          </h1>
 
           {/* Search Bar */}
           <div className="flex items-center justify-center gap-3 py-5">
@@ -78,7 +80,7 @@ const page = () => {
             //   value={categoryId}
             className="bg-[#AF611E] text-[#E4DFDA] p-4 rounded-lg shadow-md hover:shadow-lg hover:cursor-pointer transition"
           >
-            <option value={""}>All books</option>
+            <option value={""}>Todos</option>
             {/* {categories &&
             categories.map((cat) => (
               <option key={cat.id} value={cat.id}>
