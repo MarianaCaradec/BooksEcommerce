@@ -20,7 +20,7 @@ export default function page() {
   ];
 
   return (
-    <div className="bg-gradient-to-b from-[#CFC5BA] via-[#BF9A7C]/80 to-white min-h-screen py-16 px-6">
+    <div className="bg-gradient-to-b from-[#CFC5BA] via-[#CFC5BA]/80 to-white min-h-screen py-16 px-6">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-[#AF611E] mb-10 text-center">
           Reseñas
