@@ -30,7 +30,7 @@ const NavBar = () => {
             <Link href="/libros">Libros</Link>
           </li>
           <li className="hover:text-[#AF611E] hover:bg-[#CFAC91] p-2 rounded-lg font-bold transition-color duration-200 cursor-pointer">
-            <Link href="/reseñas">Reseñas</Link>
+            <Link href="/reviews">Reseñas</Link>
           </li>
           <li className="hover:text-[#AF611E] hover:bg-[#CFAC91] p-2 rounded-lg font-bold transition-color duration-200 cursor-pointer">
             <Link href="/contacto">Contacto</Link>
