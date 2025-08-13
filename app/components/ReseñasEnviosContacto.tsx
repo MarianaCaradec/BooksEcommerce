@@ -30,7 +30,7 @@ const ReseñasEnviosContacto = () => {
           </div>
           <p>Descrubre las opiniones de nuestros clientes más queridos.</p>
           <Link
-            href="/reseñas"
+            href="/reviews"
             className="bg-black text-[#CFAC91] border hover:border-[#AF611E] hover:text-[#AF611E] font-semibold py-2 px-4 rounded-lg transition"
           >
             Ver reseñas
